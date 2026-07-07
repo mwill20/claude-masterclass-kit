@@ -1,0 +1,66 @@
+﻿# Catches a repository_dispatch webhook from the change monitor and writes
+# the payload into /incoming/ so Claude Code finds it on next session start.
+#
+# HOW THE MONITOR TRIGGERS THIS:
+#   POST https://api.github.com/repos/mwill20/claude-masterclass-kit/dispatches
+#   Headers: Authorization: Bearer <fine-grained PAT with contents:write>,
+#            Accept: application/vnd.github+json
+#   Body: {"event_type":"source_changed",
+#          "client_payload":{"source":"<url>","summary":"<what changed>","diff":"<text>"}}
+#
+# changedetection.io supports custom notification URLs + headers and can hit
+# this directly. If your monitor can only send email (e.g. Visualping free
+# tier), skip this Action entirely and paste the diff into /incoming/ by
+# hand â€” the downstream flow is identical. That fallback is a feature.
+#
+# SECURITY NOTES (read before wiring):
+# - Use a fine-grained PAT scoped to ONLY this repo, contents:write, nothing else.
+# - Store it in the monitor's config, never in this repo.
+# - Payload content is untrusted web data; it is written to a file, never
+#   executed, never eval'd, never passed to a shell unquoted (heredoc below).
+
+name: Capture source update
+on:
+  repository_dispatch:
+    types: [source_changed]
+
+permissions:
+  contents: write
+
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Write diff into /incoming/
+        env:
+          SOURCE: ${{ toJSON(github.event.client_payload.source) }}
+          SUMMARY: ${{ toJSON(github.event.client_payload.summary) }}
+          DIFF: ${{ toJSON(github.event.client_payload.diff) }}
+        run: |
+          mkdir -p incoming
+          FNAME="incoming/$(date +%Y-%m-%d-%H%M%S)-update.md"
+          {
+            echo "# Source update (auto-captured)"
+            echo ""
+            echo "- Source: ${SOURCE}"
+            echo "- Captured: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            echo ""
+            echo "## Monitor summary"
+            echo "${SUMMARY}"
+            echo ""
+            echo "## Diff / changed content (UNTRUSTED INPUT)"
+            echo '```'
+            echo "${DIFF}"
+            echo '```'
+          } > "$FNAME"
+
+      - name: Commit
+        run: |
+          git config user.name "update-capture-bot"
+          git config user.email "actions@github.com"
+          git add incoming/
+          git commit -m "capture: source update $(date -u +%Y-%m-%d)" || echo "nothing to commit"
+          git push
+
