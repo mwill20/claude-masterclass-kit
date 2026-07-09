@@ -63,7 +63,7 @@ if ($Decline) {
     if ($DryRun) { Write-Host "[dry-run] Would move $DraftName -> pending-review/declined/ and commit."; exit 0 }
     # Move-Item + git add handles both tracked and not-yet-tracked drafts (git mv chokes on untracked)
     Move-Item $DraftPath (Join-Path $DeclinedDir $DraftName)
-    git -C $RepoRoot add "pending-review/$DraftName" "pending-review/declined/$DraftName"
+    git -C $RepoRoot add -A -- "pending-review"
     git -C $RepoRoot commit -m "decline: $DraftName"
     if (-not $NoPush) { git -C $RepoRoot push }
     Write-Host "Declined and recorded: $DraftName" -ForegroundColor Yellow
@@ -112,14 +112,14 @@ if ($DryRun) {
 # --- Promote draft content from 'pending review' to approved --------------
 $today = Get-Date -Format 'yyyy-MM-dd'
 $content = $content -replace '(?m)^# Pending Review - ', '# '
-$content = $content -replace '(?m)^\s*-\s*Status:\s*pending review\s*$', "- Status: approved $today"
+$content = $content -replace '(?m)^[ \t]*-[ \t]*Status:[ \t]*pending review[ \t]*$', "- Status: approved $today"
 $content = $content -replace '(?ms)\r?\n## Review Question.*$', ''
 Set-Content -Path $DraftPath -Value $content -Encoding utf8 -NoNewline
 
 # --- Move, commit, push ----------------------------------------------------
 # Move-Item + git add handles both tracked and not-yet-tracked drafts (git mv chokes on untracked)
 Move-Item $DraftPath (Join-Path $TargetDir $DraftName)
-git -C $RepoRoot add "pending-review/$DraftName" "lessons/$LaneFolder/$DraftName"
+git -C $RepoRoot add -A -- "pending-review" "lessons/$LaneFolder"
 if ($LASTEXITCODE -ne 0) { Fail "git add failed." }
 git -C $RepoRoot commit -m $CommitMsg
 if ($LASTEXITCODE -ne 0) { Fail "git commit failed." }
