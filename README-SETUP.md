@@ -10,14 +10,27 @@ NotebookLM sits downstream as the study and synthesis layer.
 - NotebookLM notebook: https://notebooklm.google.com/notebook/05a9be96-c8a7-43e2-a375-ec8ea899eb56
 - License: MIT
 
-## First Use
+## One-Time Setup
 
-1. Open this repo in Codex or Claude Code.
-2. Read `START_HERE.md`, then `CLAUDE.md`, then `domains.md`.
-3. Check `/incoming/` for source updates.
-4. Process exactly one source update at a time through `/ingest-update`.
-5. Review drafts in `/pending-review/` through `/review-queue`.
-6. After approved lesson changes land in the repo, refresh the NotebookLM sources manually.
+Run once on a new machine to enable the automated Drive mirror:
+
+```
+powershell -ExecutionPolicy Bypass -File tools\setup-drive-sync.ps1
+```
+
+It installs rclone (free, open source), opens a browser once for Google OAuth,
+locks rclone to the Master Class Drive folder, and runs the first mirror.
+
+Then, once in NotebookLM, add the mirrored `lessons` files from Drive as sources.
+
+## Per-Lesson Flow (after setup)
+
+1. Check `/incoming/` for source updates.
+2. Process exactly one source update at a time through `/ingest-update`.
+3. Review drafts in `/pending-review/` through `/review-queue`.
+4. Say YES → the agent runs `tools\publish.ps1`, which moves the lesson to its
+   lane, commits, pushes, and mirrors `lessons/` to Google Drive automatically.
+5. Your only manual step: click refresh on the sources in NotebookLM.
 
 ## Update Arrival Path
 

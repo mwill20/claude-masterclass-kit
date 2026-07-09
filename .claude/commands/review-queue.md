@@ -8,9 +8,12 @@
    Risk: [tag]. Add it to the Master Class?"
 
 3. Take the answer per item:
-   - YES → move content into the live tree at the mapped lane/station.
-     One commit per item: "add(domain-N): <station>" or "update(...)".
-   - NO → move the file to /pending-review/declined/ (keep the record).
+   - YES → run the publish pipeline (see /publish-lesson):
+     `powershell -ExecutionPolicy Bypass -File tools\publish.ps1 -Draft <file>`
+     It moves the file to the mapped lane, commits "add(domain-N): <station>"
+     (or pass -Update for "update(...)"), pushes, and mirrors lessons/ to Drive.
+   - NO → `tools\publish.ps1 -Draft <file> -Decline`
+     (moves to /pending-review/declined/, keeps the record).
    - LATER → leave it in place, note the date it was deferred.
 4. Michael's answer in this session IS the authorization. No answer = no action.
    Never merge, never push, never "helpfully" batch-approve.

@@ -69,10 +69,16 @@ GATE (this is a control, not a label):
 - GitHub repo = https://github.com/mwill20/claude-masterclass-kit. Version-controlled markdown.
 - One commit per accepted review item. Message format:
   "add(domain-N): <station name>" or "update(domain-N): <station name>".
+- Publishing is SCRIPTED, not hand-done: after an in-session YES,
+  tools/publish.ps1 moves the draft to its lane, commits, pushes, and
+  mirrors lessons/ to Google Drive via rclone
+  (folder: https://drive.google.com/drive/u/0/folders/1Q0YlNYl9a_Q8fIGxCWpyaQIMX3h5ONUQ).
+  One-time setup: tools/setup-drive-sync.ps1.
 - NotebookLM = synthesis layer (mind map, audio overviews, Q&A).
-  Sync is MANUAL: repo folder mirrors to Google Drive at https://drive.google.com/drive/u/0/folders/1Q0YlNYl9a_Q8fIGxCWpyaQIMX3h5ONUQ; Michael refreshes
-  NotebookLM sources weekly or after accepted updates in https://notebooklm.google.com/notebook/05a9be96-c8a7-43e2-a375-ec8ea899eb56. Never claim this
-  is automatic. Never attempt to push to NotebookLM directly.
+  The NotebookLM source refresh is the ONE manual step left: Michael refreshes
+  sources after accepted updates in
+  https://notebooklm.google.com/notebook/05a9be96-c8a7-43e2-a375-ec8ea899eb56.
+  Never claim that part is automatic. Never attempt to push to NotebookLM directly.
 - Obsidian: not used in v1.
 
 ## MONITORED SOURCES (external monitor watches these, not Claude Code)
