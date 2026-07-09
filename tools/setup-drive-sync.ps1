@@ -45,7 +45,8 @@ if ($remotes -contains "${RemoteName}:") {
 }
 else {
     Write-Host "Creating remote '$RemoteName'. A browser window will open - approve access with your Google account." -ForegroundColor Cyan
-    rclone config create $RemoteName drive scope=drive root_folder_id=$DriveFolderId
+    # Out-Null: config create echoes the remote config including the OAuth token - never print secrets
+    rclone config create $RemoteName drive scope=drive root_folder_id=$DriveFolderId | Out-Null
     if ($LASTEXITCODE -ne 0) {
         Write-Host "ERROR: rclone config failed. Rerun this script to retry." -ForegroundColor Red
         exit 1

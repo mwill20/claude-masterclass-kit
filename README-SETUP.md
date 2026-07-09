@@ -23,6 +23,11 @@ locks rclone to the Master Class Drive folder, and runs the first mirror.
 
 Then, once in NotebookLM, add the mirrored `lessons` files from Drive as sources.
 
+Maintenance note: rclone's shared Google client_id is being retired during 2026.
+Before it stops working, create a personal client_id
+(https://rclone.org/drive/#making-your-own-client-id) and update the remote with
+`rclone config update gdrive client_id <id> client_secret <secret>`.
+
 ## Per-Lesson Flow (after setup)
 
 1. Check `/incoming/` for source updates.
