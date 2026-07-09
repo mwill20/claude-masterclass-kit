@@ -1,11 +1,11 @@
-﻿# Pending Review - API-Key Protected Local Service
+﻿# API-Key Protected Local Service
 
 - Source file: `incoming/processed/2026-07-07-api-key-auth-dry-run.md`
 - Captured: 2026-07-07
 - Lane: Domain 3 - Claude Code configuration and workflows
 - Station: API-key protected local service
 - Risk: MED
-- Status: pending review
+- Status: approved 2026-07-09
 
 ## Why This Maps Here
 
@@ -51,7 +51,3 @@ You're done when:
 
 - Flask request hooks and configuration docs: https://flask.palletsprojects.com/
 - OWASP API Security Top 10: https://owasp.org/API-Security/
-
-## Review Question
-
-Add this lesson to Domain 3?
