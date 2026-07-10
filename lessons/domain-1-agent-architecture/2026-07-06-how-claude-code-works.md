@@ -1,4 +1,4 @@
-# Draft station: how-claude-code-works
+﻿# how-claude-code-works
 Maps to: Domain 1 (Agent architecture and orchestration)
 Source: W4 "Claude Code's Hidden Architecture", W1 "Foundations and Claude Code Mental"
 Risk: LOW
