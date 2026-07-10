@@ -1,4 +1,4 @@
-# Draft station: context-fundamentals
+﻿# context-fundamentals
 Maps to: Domain 5 (Context management and reliability)
 Source: W1 "Claude Code / Context 1"
 Risk: LOW
