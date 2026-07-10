@@ -119,7 +119,7 @@ Set-Content -Path $DraftPath -Value $content -Encoding utf8 -NoNewline
 # --- Move, commit, push ----------------------------------------------------
 # Move-Item + git add handles both tracked and not-yet-tracked drafts (git mv chokes on untracked)
 Move-Item $DraftPath (Join-Path $TargetDir $DraftName)
-git -C $RepoRoot add -A -- "pending-review" "lessons/$LaneFolder"
+git -C $RepoRoot add -A -- "pending-review" "lessons/$LaneFolder" "incoming"
 if ($LASTEXITCODE -ne 0) { Fail "git add failed." }
 git -C $RepoRoot commit -m $CommitMsg
 if ($LASTEXITCODE -ne 0) { Fail "git commit failed." }
