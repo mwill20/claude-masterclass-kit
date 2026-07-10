@@ -77,8 +77,9 @@ if (-not $Lane) {
     # Accepts both header styles: "- Lane: Domain N ..." (kit) and "Maps to: Domain N (...)" (2026-07-06 migrated drafts)
     if ($content -match '(?m)^\s*(?:-\s*Lane|Maps to):\s*(.+)$') {
         $laneLine = $Matches[1]
-        if ($laneLine -match '[Dd]omain\s*([1-5])') { $Lane = "domain-$($Matches[1])" }
-        elseif ($laneLine -match "what'?s\s*new") { $Lane = 'whats-new' }
+        # whats-new check comes first: those lane lines often mention "Domain N" in passing
+        if ($laneLine -match "^\s*what'?s[-\s]*new") { $Lane = 'whats-new' }
+        elseif ($laneLine -match '[Dd]omain\s*([1-5])') { $Lane = "domain-$($Matches[1])" }
     }
     if (-not $Lane) { Fail "Could not detect lane from draft. Pass -Lane domain-N or -Lane whats-new." }
 }
