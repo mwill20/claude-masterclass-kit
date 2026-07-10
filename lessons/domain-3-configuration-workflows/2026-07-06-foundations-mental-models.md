@@ -1,4 +1,4 @@
-# Draft station: foundations-mental-models
+﻿# foundations-mental-models
 Maps to: Domain 3 (Claude Code configuration and workflows)
 Source: W1 "Foundations and Claude Code Mental", "Claude Code Mappings", "Claude Code Week 1"
 Risk: LOW
