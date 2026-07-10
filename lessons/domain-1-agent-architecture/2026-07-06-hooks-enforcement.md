@@ -1,4 +1,4 @@
-# Draft station: hooks-enforcement
+﻿# hooks-enforcement
 Maps to: Domain 1 (Agent architecture and orchestration)
 Source: W3 "Claude Hooks", "HooksGovernanceControlsLoggin"
 Risk: HIGH. Hooks execute arbitrary shell commands on tool events, on your
