@@ -1,4 +1,4 @@
-# Draft station: ai-debugging-security-governance  [LANE 6 — whats-new, FLAGGED]
+﻿# ai-debugging-security-governance  [LANE 6 â€” whats-new, FLAGGED]
 Maps to: whats-new. Closest real lane is Domain 5 (reliability, human
 oversight) but security governance as taught in W7 is broader than the
 domain's scope. Michael's call.
