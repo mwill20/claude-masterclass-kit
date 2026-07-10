@@ -1,4 +1,4 @@
-# Draft station: github-workflows-pr-automation
+﻿# github-workflows-pr-automation
 Maps to: Domain 3 (Claude Code configuration and workflows)
 Source: W6 "GitHub Workflows & PR Automation" (both PDFs)
 Risk: HIGH. CI-resident agents run with repo write tokens on
