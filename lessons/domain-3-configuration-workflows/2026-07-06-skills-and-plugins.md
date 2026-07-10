@@ -1,4 +1,4 @@
-# Draft station: skills-and-plugins
+﻿# skills-and-plugins
 Maps to: Domain 3 (Claude Code configuration and workflows)
 Source: W5 "Skills and Plugin Architecture", "Claude Skills Architecture Summary Week5"
 Risk: MED. Skills and plugins are versioned third-party code that shapes
