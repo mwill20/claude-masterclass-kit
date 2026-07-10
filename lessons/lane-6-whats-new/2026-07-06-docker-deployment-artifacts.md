@@ -1,4 +1,4 @@
-# Draft station: docker-deployment-artifacts  [LANE 6 — whats-new, FLAGGED]
+﻿# docker-deployment-artifacts  [LANE 6 â€” whats-new, FLAGGED]
 Maps to: whats-new (deployment is not a CCA-F domain; Michael's call on
 graduation or leaving it staged)
 Source: W6 "Docker & Deployment Artifact Generation", "Docker _ Deployment Artifacts"
