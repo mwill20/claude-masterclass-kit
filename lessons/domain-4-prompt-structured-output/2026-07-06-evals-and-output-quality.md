@@ -1,4 +1,4 @@
-# Draft station: evals-and-output-quality
+﻿# evals-and-output-quality
 Maps to: Domain 4 (Prompt engineering and structured output)
 Source: W6 "EvalsWeek 6 Session 1"
 Risk: LOW. One caution: never let an LLM judge gate a security decision by
