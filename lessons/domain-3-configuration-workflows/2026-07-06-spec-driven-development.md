@@ -1,4 +1,4 @@
-# Draft station: spec-driven-development
+﻿# spec-driven-development
 Maps to: Domain 3 (Claude Code configuration and workflows)
 Source: W2 "SpecDriven Development", "Spec Kit", "Specs 3", Assignment 2 "SpecDriven FeatureFactory"
 Risk: LOW
