@@ -1,4 +1,4 @@
-# Draft station: mcp-intel-platform-build
+﻿# mcp-intel-platform-build
 Maps to: Domain 2 (Tool design and MCP integration)
 Source: W4 mini project fintrack-mcp-intel (AssignementsDone/Mini_Project Assignment W4/)
 Risk: MED. Building a server means you own the tool descriptions, input
