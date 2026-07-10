@@ -1,4 +1,4 @@
-# Draft station: commands-workflow-automation
+﻿# commands-workflow-automation
 Maps to: Domain 3 (Claude Code configuration and workflows)
 Source: W3 "Type one command Ship entire workflow", "The SDLC just got rebuilt by AI"
 Risk: MED. A slash command is stored prompt injection by design: whatever
