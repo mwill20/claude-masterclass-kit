@@ -1,4 +1,4 @@
-# Draft station: agent-orchestration
+﻿# agent-orchestration
 Maps to: Domain 1 (Agent architecture and orchestration)
 Source: W5 "Agent_Orchestration", "Multi-Agent Engineering & Organizational Tooling"
 Risk: MED. Orchestration decides which agent acts with which authority.
