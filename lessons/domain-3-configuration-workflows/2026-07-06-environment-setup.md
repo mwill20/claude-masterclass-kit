@@ -1,4 +1,4 @@
-# Draft station: environment-setup
+﻿# environment-setup
 Maps to: Domain 3 (Claude Code configuration and workflows)
 Source: W0 "Claude Code - Environment Setup Instructions"
 Risk: LOW
