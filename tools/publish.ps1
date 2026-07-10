@@ -74,7 +74,8 @@ if ($Decline) {
 $content = Get-Content $DraftPath -Raw
 
 if (-not $Lane) {
-    if ($content -match '(?m)^\s*-\s*Lane:\s*(.+)$') {
+    # Accepts both header styles: "- Lane: Domain N ..." (kit) and "Maps to: Domain N (...)" (2026-07-06 migrated drafts)
+    if ($content -match '(?m)^\s*(?:-\s*Lane|Maps to):\s*(.+)$') {
         $laneLine = $Matches[1]
         if ($laneLine -match '[Dd]omain\s*([1-5])') { $Lane = "domain-$($Matches[1])" }
         elseif ($laneLine -match "what'?s\s*new") { $Lane = 'whats-new' }
@@ -90,7 +91,7 @@ if (-not (Test-Path $TargetDir)) { Fail "Lane folder missing: $TargetDir" }
 
 if (-not $Station) {
     if ($content -match '(?m)^\s*-\s*Station:\s*(.+)$') { $Station = $Matches[1].Trim() }
-    else { $Station = [System.IO.Path]::GetFileNameWithoutExtension($DraftName) }
+    else { $Station = [System.IO.Path]::GetFileNameWithoutExtension($DraftName) -replace '^\d{4}-\d{2}-\d{2}-', '' }
 }
 
 $verb = 'add'
@@ -112,6 +113,7 @@ if ($DryRun) {
 # --- Promote draft content from 'pending review' to approved --------------
 $today = Get-Date -Format 'yyyy-MM-dd'
 $content = $content -replace '(?m)^# Pending Review - ', '# '
+$content = $content -replace '(?m)^# Draft station: ', '# '
 $content = $content -replace '(?m)^[ \t]*-[ \t]*Status:[ \t]*pending review[ \t]*$', "- Status: approved $today"
 $content = $content -replace '(?ms)\r?\n## Review Question.*$', ''
 Set-Content -Path $DraftPath -Value $content -Encoding utf8 -NoNewline
