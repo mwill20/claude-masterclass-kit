@@ -1,4 +1,4 @@
-# Draft station: subagents-multi-agent
+﻿# subagents-multi-agent
 Maps to: Domain 1 (Agent architecture and orchestration)
 Source: W5 "Subagents & Multi-Agent Collaboration" (both PDFs)
 Risk: MED. Subagents multiply the shell/exec surface: each spawned agent
