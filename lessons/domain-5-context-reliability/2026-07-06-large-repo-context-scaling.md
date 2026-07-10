@@ -1,4 +1,4 @@
-# Draft station: large-repo-context-scaling  [PRIORITY: known personal gap]
+﻿# large-repo-context-scaling  [PRIORITY: known personal gap]
 Maps to: Domain 5 (Context management and reliability)
 Source: W4 "Session 7 Large Repo Strategies & Context Scaling", "Session7_HandsOn_Lab_ShopFlow"
 Risk: LOW
