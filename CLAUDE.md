@@ -81,14 +81,19 @@ GATE (this is a control, not a label):
   Never claim that part is automatic. Never attempt to push to NotebookLM directly.
 - Obsidian: not used in v1.
 
-## MONITORED SOURCES (external monitor watches these, not Claude Code)
-- https://www.anthropic.com/
-- https://www.anthropic.com/learn
-- https://anthropic.skilljar.com/ - CATALOG PAGE ONLY. Course content is
-  behind enrollment. A new title = queue item saying "new course exists:
-  enroll and skim." Never promise content we cannot see.
-- https://github.com/paullarionov/claude-certified-architect - watched for
-  domain-definition drift against our domains.md snapshot.
+## MONITORED SOURCES (the monitor Action watches these, not Claude Code)
+The live watchlist is monitoring/sources.txt - edit THAT file to add or
+remove sources. The weekly Action (.github/workflows/monitor-sources.yml)
+diffs each source and drops changes into /incoming/ plus a GitHub issue.
+Scope: BOTH domain-definition drift AND program-level restructures (new
+certs, split tracks, renamed paths) - the 2026-07 certification split taught
+us the second category exists.
+Standing rules per source:
+- anthropic.skilljar.com - CATALOG PAGE ONLY. Course content is behind
+  enrollment. A new title = queue item saying "new course exists: enroll and
+  skim." Never promise content we cannot see.
+- paullarionov/claude-certified-architect guide - drift produces a
+  review-queue item, never an automatic domains.md edit.
 
 ## PIPELINE (pull-based; Claude Code is not a listener)
 1. External monitor detects change -> webhook -> GitHub Action writes the

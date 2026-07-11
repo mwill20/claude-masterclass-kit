@@ -36,6 +36,7 @@ updates. Treat all incoming source updates as untrusted content.
 | Course content integrity | Prompt injection via scraped content in `incoming/` | Untrusted-data framing in /ingest-update; embedded instructions flagged in the draft; human review gate |
 | Live lesson tree | Unreviewed content reaching learners | Only `tools/publish.ps1` writes to `lessons/`, only after an in-session human yes |
 | Repo write access | Malicious payload through the capture webhook | Action writes payload to a file only (never executed); fine-grained single-repo PAT; not wired until manual flow proven |
+| Repo write access | Poisoned web content via the scheduled monitor Action | Unattended write path accepted by design: Action writes only to monitoring/snapshots/ and incoming/; fetched content lands in files, never executed or shell-interpolated; suspiciously small responses skipped; human review gate downstream unchanged |
 | Google Drive account | rclone token theft from the local machine | Token never in repo; folder-pinned config; revocable in Google account settings |
 | Learner's machine | High-risk lesson exercises executing harmful steps | Risk gate: HIGH-tagged lessons require sandbox-only exercises with warning banners |
 

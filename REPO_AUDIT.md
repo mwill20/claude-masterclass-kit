@@ -67,8 +67,11 @@ model repo, so those standards are marked N/A with reasons.
 2. Station drafts from 2026-07-06 keep their original compact format
    (`Maps to:` headers) rather than the kit header block. Cosmetic; publish
    tooling handles both.
-3. Monitor wiring (changedetection.io → capture-update.yml) is documented but
-   deliberately not wired yet, per the manual-first rule.
+3. ~~Monitor wiring deliberately not wired yet~~ — RESOLVED 2026-07-11: an
+   in-repo weekly monitor Action (monitor-sources.yml) now watches
+   monitoring/sources.txt and writes changes into incoming/. The external
+   changedetection.io path is no longer needed; capture-update.yml remains
+   as an optional webhook entry point.
 
 ## Priority Fix Order (executed this pass)
 

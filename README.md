@@ -9,8 +9,9 @@ keeps everything organized, backed up, and ready to study.
 Think of it as a textbook that maintains itself:
 
 - **The library** (`lessons/`): every topic lives on one of six shelves. Five
-  shelves match the five subject areas of the official Claude certification
-  exam. The sixth shelf holds new topics that do not fit anywhere yet.
+  shelves are competency areas drawn from the Claude certification program
+  (now four certifications; see the ladder in `domains.md`). The sixth shelf
+  holds new topics that do not fit anywhere yet.
 - **The mailroom** (`incoming/` and `pending-review/`): when something new
   ships, a note lands in the inbox, gets drafted into a lesson, and waits for
   a human yes or no. Nothing enters the library without approval.
@@ -103,10 +104,11 @@ Drive and NotebookLM.
 
 ## Project status
 
-Active personal learning system. Nineteen lessons published across all six
-shelves. The update-capture automation (`.github/workflows/capture-update.yml`)
-exists but is intentionally not wired to a monitor yet; updates arrive by
-manual paste until the manual flow has proven itself.
+Active personal learning system. Twenty lessons published across all six
+shelves. A weekly monitor (`.github/workflows/monitor-sources.yml`) watches
+the pages in `monitoring/sources.txt` and drops any changes into the inbox
+automatically, opening a GitHub issue so you get an email. Manual paste into
+`incoming/` still works and is still the fallback.
 
 ## More documentation
 

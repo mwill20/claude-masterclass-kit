@@ -5,9 +5,12 @@
 - **NotebookLM refresh is manual.** There is no supported API, so after every
   approved lesson (or batch), someone has to click refresh in the notebook.
   The system is designed around this: it is one click, not a workflow.
-- **Update capture is not wired.** New Anthropic changes arrive only when a
-  human pastes them into `incoming/`. The GitHub Action exists but has no
-  monitor pointed at it yet, so the course only updates when prompted.
+- **Detection is weekly and text-based.** The monitor Action diffs the pages
+  in `monitoring/sources.txt` once a week. Changes announced elsewhere, made
+  and reverted between runs, or hidden behind logins/JavaScript-only rendering
+  will not be caught. The 2026-07 certification split was missed before this
+  layer existed; the watchlist now includes the pages where that change
+  actually appeared.
 - **Lessons are deliberately skeletal.** The 3-layer model (index, exercise,
   doc link) is a map, not a textbook. Anyone expecting full prose chapters
   will find the stations thin; depth lives in the linked official docs and

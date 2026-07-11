@@ -1,0 +1,9 @@
+# Watched sources for the weekly monitor Action. Format: <slug> <url>
+# Lines starting with # are ignored. Slug becomes the snapshot filename and
+# part of the incoming/ item name. This file IS the live watchlist referenced
+# by CLAUDE.md.
+anthropic-learn https://www.anthropic.com/learn
+anthropic-news https://www.anthropic.com/news
+skilljar-catalog https://anthropic.skilljar.com/
+pearson-vue-certs https://www.pearsonvue.com/us/en/anthropic.html
+cca-guide https://raw.githubusercontent.com/paullarionov/claude-certified-architect/main/guide_en.md

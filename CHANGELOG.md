@@ -3,6 +3,16 @@
 Lesson-level history is in `git log` (one commit per lesson, format
 `add(domain-N): <station>`). This file tracks system-level changes.
 
+## 2026-07-11
+
+- Responded to Anthropic's certification program split (one cert → four:
+  CCAO-F, CCDV-F, CCAR-F, CCAR-P): certification-ladder section added to
+  domains.md (lanes unchanged), what's-new station published. Change was
+  reported by Michael, not detected by the system.
+- Added the detection layer that miss exposed: scheduled monitor Action
+  (`.github/workflows/monitor-sources.yml`) diffs watched pages weekly into
+  `incoming/` and opens a GitHub issue on change.
+
 ## 2026-07-10
 
 - Batch-published 17 reviewed stations; all six lanes now populated
