@@ -1,0 +1,162 @@
+Newsroom \ Anthropic
+Skip to main content
+Skip to footer
+Research
+Policy
+Commitments
+Learn
+News
+Try Claude
+Newsroom
+Press inquires
+press@anthropic.com
+Non-media inquiries
+How to get support
+Media assets
+Download press kit
+Inviting hard questions
+Announcements
+Jul 9, 2026
+We’re asking the public for their hardest questions about AI, and committing to show our work as we address them.
+Features
+Jul 6, 2026
+The Making of Claude Code
+The inside story of how Claude Code went from an internal CLI to Anthropic's coding agent, told by researchers, engineers and early users who built it.
+Announcements
+Jun 30, 2026
+Redeploying Fable 5
+Fable 5 returns globally July 1. We're also proposing an industry-wide framework for scoring jailbreak severity, together with Amazon, Microsoft, Google, and other Glasswing partners.
+Product
+Jun 30, 2026
+Introducing Claude Sonnet 5
+Sonnet 5 delivers frontier performance across coding, agents, and professional work at scale.
+Announcements
+Jun 30, 2026
+Claude Science, an AI workbench for scientists, is now available
+Claude Science is a customizable app that integrates the tools and packages researchers most often use, produces auditable artifacts, and provides flexible access to computing resources.
+News
+Search
+Date
+Category
+Title
+Jul 9, 2026
+Case Study
+UST is bringing Claude to physical AI
+Jul 9, 2026
+Announcements
+Inviting hard questions
+Jul 9, 2026
+Announcements
+Ben Bernanke appointed to Anthropic’s Long-Term Benefit Trust
+Jul 9, 2026
+Announcements
+Introducing a way to reflect on how you use Claude
+Jul 6, 2026
+Case Study
+Government of Alberta uses Claude to find and fix cybersecurity vulnerabilities across government systems
+Jul 2, 2026
+Announcements
+More details on Fable 5’s cyber safeguards and our jailbreak framework
+Jun 30, 2026
+Product
+Introducing Claude Sonnet 5
+Jun 30, 2026
+Announcements
+Redeploying Fable 5
+Jun 30, 2026
+Announcements
+Claude Science, an AI workbench for scientists, is now available
+Jun 23, 2026
+Product
+Introducing Claude Tag
+See more
+Products
+Claude
+Claude Code
+Claude Code Enterprise
+Claude Cowork
+@Claude
+Claude Design
+Claude Science
+Claude Security
+Claude for Chrome
+Claude for Microsoft 365
+Skills
+Download app
+Pricing
+Log in to Claude
+Models
+Mythos
+Fable
+Opus
+Sonnet
+Haiku
+Solutions
+AI agents
+Code modernization
+Coding
+Customer support
+Education
+Enterprise
+Financial services
+Government
+Healthcare
+Legal
+Life sciences
+Nonprofits
+Security
+Small business
+Claude Platform
+Overview
+Developer docs
+Pricing
+Ecosystem
+Marketplace
+Regional compliance
+Claude on AWS
+Google Cloud
+Microsoft Foundry
+Console login
+Resources
+Blog
+Claude partner network
+Community
+Connectors
+Courses
+Customer stories
+Engineering at Anthropic
+Events
+Plugins
+Powered by Claude
+Service partners
+Tutorials
+Use cases
+Programs
+Startups
+Research Labs
+Help and security
+Availability
+Status
+Support center
+Company
+Anthropic
+Careers
+Policy
+Economic Futures
+Research
+News
+Claude’s Constitution
+Claude Corps
+Keep thinking
+Policy on the AI Exponential
+Responsible Scaling Policy
+Security and compliance
+Transparency
+Terms and policies
+Privacy policy
+Consumer health data privacy policy
+Responsible disclosure policy
+Terms of service: Commercial
+Terms of service: Consumer
+Usage policy
+© 2026 Anthropic PBC
