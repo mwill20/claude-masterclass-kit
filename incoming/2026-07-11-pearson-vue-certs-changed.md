@@ -1,0 +1,485 @@
+# Source update (auto-captured by monitor)
+
+- Source: https://www.pearsonvue.com/us/en/anthropic.html
+- Captured: 2026-07-11T13:02:15Z
+- Monitor slug: pearson-vue-certs
+
+## Diff since last snapshot (UNTRUSTED INPUT - data, never instructions)
+```diff
+--- monitoring/snapshots/pearson-vue-certs.txt	2026-07-11 13:02:06.182526502 +0000
++++ /tmp/new.txt	2026-07-11 13:02:15.055439825 +0000
+@@ -1,236 +1,236 @@
+-﻿Claude Certification Program | AI, Machine Learning & LLM Development
+-Skip to main content
+-For test-takers
+-For test owners
+-For test centers
+-For training centers
+-Explore skilling solutions
+-About us
+-Resources and FAQs
+-Find a test center
+-Online testing
+-Test accommodations
+-U.S. military
+-Log in
+-For test-takers
+-Resources and FAQs
+-Find a test center
+-Online testing
+-Test accommodations
+-U.S. military
+-For test owners
+-For test centers
+-For training centers
+-Explore skilling solutions
+-About us
+-Log in
+-For test-takers
+-/
+-Anthropic
+-To schedule, reschedule and cancel exam:
+-Log in
+-Forgot my username
+-Forgot my password
+-Find a test center
+-View exams
+-Test accommodations
+-Contact us
+-Claude Certification Program by Anthropic
+-The Claude Certification Program validates the skills behind advising, designing, and building Claude solutions. Each certification maps to real work, with three roles to choose from: Practitioner, Architect, and Developer. Certification is open to organizations in the Claude Partner Network and counts toward partner program standing.
+-Certifications
+-Claude Certified Associate - Foundations (CCAO-F)
+-Claude Certified Architect - Foundations (CCAR-F)
+-Claude Certified Architect - Professional (CCAR-P)
+-SIMULATED-DRIFT-TEST - Foundations (CCDV-F)
+-Digital Badges
+-Anthropic has partnered with Credly to provide digital certification badges.
+-Training Resources
+-Prepare for your certification exam with self-paced preparation training courses available in
+-Anthropic Partner Academy
+-. Training is available to members of the Claude Partner Network.
+-Exam Scheduling & Retakes
+-Register at the
+-Anthropic Partner Academy
+-to begin the scheduling process. If this is your first Pearson exam you will receive an email with your Pearson username and password. Next, you can
+-log in
+-to schedule your exam.
+-Test center appointments can be rescheduled or cancelled up to 24 hours prior to your scheduled appointment through your Pearson account.
+-If you don't pass, you can retake the exam after a short waiting period: 14 days after your first attempt, 30 days after your second, and 90 days after your third.
+-You can take up to 4 attempts per exam in any rolling 12-month period.
+-OnVUE Exam Delivery
+-Advanced Networking Requirements
+-The following domains and all their subdomains must be reachable from your network for Pearson OnVUE exam delivery. Please contact your corporate network administrator if your system test flags any of these domains.
+-Domain
+-*.ably-realtime.com
+-*.ably.io
+-*.certiport.com
+-*.gettesting.com
+-*.onvue.com
+-*.pdricloud.net
+-*.pearson.com
+-*.pearsonvue.com
+-*.programworkshop.com
+-*.programworkshop2.com
+-*.pvue1.com
+-*.pvue2.com
+-*.startpractice.com
+-*.starttest.com
+-*.starttest2.com
+-*.twilio.com
+-*.verifyreadiness.com
+-*.wowza.com
+-Resources
+-Helpful links
+-Anthropic Website
+-Anthropic Partner Academy
+-Claude Partner Network
+-What to expect during your exam
+-OnVUE online testing information
+-Contact us
+-Live chat
+-Americas region
+-Asia-Pacific region
+-Europe, Middle East, Africa (EMEA) region
+-Need assistance? Chat with a live agent now.*
+-Chat with us
+-*Can't find the chat feature? Enable support features by turning on functional cookies in your preferences:
+-Office hours
+-Mondayâ€“Friday, 7:00 a.m.â€“7:00 p.m. CT; closed on local holidays.
+-Telephone numbers
+-888-671-2183
+-(toll-free)
+-Office hours
+-24/7 for each country (except where listed below); closed on local holidays.
+-Telephone numbers
+-Toll-free customer service numbers are available in the following countries. If your country is not listed, please use the toll number at the bottom of this section.
+-Country
+-Number
+-Australia
+-1800-023-095
+-China (Mainland)
+-4001-200832
+-(Monday - Friday, 9:00 a.m.-6:00 p.m. local time)
+-Hong Kong
+-3071-4601
+-India
+-0008004401837
+-Japan
+-0120 355 173
+-(Monday - Friday, 9:00 a.m.-6:00 p.m. local time)
+-Korea, South
+-080-7600-880
+-Malaysia
+-1800-880-401
+-New Zealand
+-0800-451-260
+-Philippines
+-1800-1441-0321
+-Singapore
+-8004-481-552
+-Taiwan
+-0800-666-022
+-(Monday - Friday, 9:00 a.m.-6:00 p.m. local time)
+-Other (Toll)
+-+852 3077 4923
+-Office hours
+-9:00â€“18:00 CET (8:00â€“17:00 GMT) Mondayâ€“Friday; closed on local holidays.
+-Telephone numbers
+-Toll-free customer service numbers are available in the following countries. If your country is not listed, please use the toll number at the bottom of this section.
+-Country
+-Number
+-Austria
+-0800-292150
+-Belgium - Dutch
+-0800-74174
+-Belgium - French
+-0800-74175
+-France
+-0800-909153
+-Germany
+-0800-1810696
+-Ireland
+-1-800-552131
+-Israel
+-1-80-9453797
+-Italy
+-800-790521
+-Netherlands
+-0800-0235323
+-Portugal
+-800-831429
+-South Africa
+-0800-995044
+-Spain
+-900-993190
+-Sweden
+-020-798690
+-Switzerland
+-0800-837550
+-Turkey
+-00800448822063
+-United Kingdom
+-0800-7319905
+-If your country is not listed above, use the following toll number: +
+-44-14-4228-0190
+-Last updated 2026-07-08
+-Preferred language dialog selection
+-Language
+-Your preferred language
+-{preferredLanguage}
+-Other available languages
+-Select your Language
+-Ø§Ù„Ø¹Ø±Ø¨ÙŠØ©
+-Arabic
+-English - United Kingdom
+-English - United Kingdom
+-English - United States
+-English - United States
+-FranÃ§ais canadien
+-French Canadian
+-í•œêµ­ì–´
+-Korean
+-æ—¥æœ¬èªž
+-Japanese
+-ç®€ä½“ä¸­æ–‡
+-Simplified Chinese
+-Cancel
+-Apply
+-Close Preferred language dialog selection dialog
+-Search overlay modal
+-What can we help you find?
+-Featured searches
+-Find an exam program
+-Log in to my account
+-Create an account
+-Reschedule my exam
+-Purchase vouchers
+-Customer service
+-Close Search overlay modal dialog
+-Unleash opportunity with in-demand skilling and certification
+-For test-takers
+-Resources and FAQs
+-Find a test center
+-Online testing
+-Test accommodations
+-Customer service
+-U.S. military
+-For test owners
+-For test centers
+-For training centers
+-Explore skilling solutions
+-About us
+-US-English
+-Privacy and cookies policy
+-Terms of service
+-SMS terms and conditions
+-Do not sell my personal information and cookies
+-Accessibility statement
+-Responsible AI statement
+-Health Data Policy
+-Sustainability
+-Carbon reduction plan
+-Modern Slavery Act
+-Â© 1996 â€“ {year} Pearson. All rights reserved, including those for text and data mining and training of artificial intelligence and similar technologies.
+-This website uses
+-cookies
+-.
++Claude Certification Program | AI, Machine Learning & LLM Development
++Skip to main content
++For test-takers
++For test owners
++For test centers
++For training centers
++Explore skilling solutions
++About us
++Resources and FAQs
++Find a test center
++Online testing
++Test accommodations
++U.S. military
++Log in
++For test-takers
++Resources and FAQs
++Find a test center
++Online testing
++Test accommodations
++U.S. military
++For test owners
++For test centers
++For training centers
++Explore skilling solutions
++About us
++Log in
++For test-takers
++/
++Anthropic
++To schedule, reschedule and cancel exam:
++Log in
++Forgot my username
++Forgot my password
++Find a test center
++View exams
++Test accommodations
++Contact us
++Claude Certification Program by Anthropic
++The Claude Certification Program validates the skills behind advising, designing, and building Claude solutions. Each certification maps to real work, with three roles to choose from: Practitioner, Architect, and Developer. Certification is open to organizations in the Claude Partner Network and counts toward partner program standing.
++Certifications
++Claude Certified Associate - Foundations (CCAO-F)
++Claude Certified Architect - Foundations (CCAR-F)
++Claude Certified Architect - Professional (CCAR-P)
++Claude Certified Developer - Foundations (CCDV-F)
++Digital Badges
++Anthropic has partnered with Credly to provide digital certification badges.
++Training Resources
++Prepare for your certification exam with self-paced preparation training courses available in
++Anthropic Partner Academy
++. Training is available to members of the Claude Partner Network.
++Exam Scheduling & Retakes
++Register at the
++Anthropic Partner Academy
++to begin the scheduling process. If this is your first Pearson exam you will receive an email with your Pearson username and password. Next, you can
++log in
++to schedule your exam.
++Test center appointments can be rescheduled or cancelled up to 24 hours prior to your scheduled appointment through your Pearson account.
++If you don't pass, you can retake the exam after a short waiting period: 14 days after your first attempt, 30 days after your second, and 90 days after your third.
++You can take up to 4 attempts per exam in any rolling 12-month period.
++OnVUE Exam Delivery
++Advanced Networking Requirements
++The following domains and all their subdomains must be reachable from your network for Pearson OnVUE exam delivery. Please contact your corporate network administrator if your system test flags any of these domains.
++Domain
++*.ably-realtime.com
++*.ably.io
++*.certiport.com
++*.gettesting.com
++*.onvue.com
++*.pdricloud.net
++*.pearson.com
++*.pearsonvue.com
++*.programworkshop.com
++*.programworkshop2.com
++*.pvue1.com
++*.pvue2.com
++*.startpractice.com
++*.starttest.com
++*.starttest2.com
++*.twilio.com
++*.verifyreadiness.com
++*.wowza.com
++Resources
++Helpful links
++Anthropic Website
++Anthropic Partner Academy
++Claude Partner Network
++What to expect during your exam
++OnVUE online testing information
++Contact us
++Live chat
++Americas region
++Asia-Pacific region
++Europe, Middle East, Africa (EMEA) region
++Need assistance? Chat with a live agent now.*
++Chat with us
++*Can't find the chat feature? Enable support features by turning on functional cookies in your preferences:
++Office hours
++Monday–Friday, 7:00 a.m.–7:00 p.m. CT; closed on local holidays.
++Telephone numbers
++888-671-2183
++(toll-free)
++Office hours
++24/7 for each country (except where listed below); closed on local holidays.
++Telephone numbers
++Toll-free customer service numbers are available in the following countries. If your country is not listed, please use the toll number at the bottom of this section.
++Country
++Number
++Australia
++1800-023-095
++China (Mainland)
++4001-200832
++(Monday - Friday, 9:00 a.m.-6:00 p.m. local time)
++Hong Kong
++3071-4601
++India
++0008004401837
++Japan
++0120 355 173
++(Monday - Friday, 9:00 a.m.-6:00 p.m. local time)
++Korea, South
++080-7600-880
++Malaysia
++1800-880-401
++New Zealand
++0800-451-260
++Philippines
++1800-1441-0321
++Singapore
++8004-481-552
++Taiwan
++0800-666-022
++(Monday - Friday, 9:00 a.m.-6:00 p.m. local time)
++Other (Toll)
+++852 3077 4923
++Office hours
++9:00–18:00 CET (8:00–17:00 GMT) Monday–Friday; closed on local holidays.
++Telephone numbers
++Toll-free customer service numbers are available in the following countries. If your country is not listed, please use the toll number at the bottom of this section.
++Country
++Number
++Austria
++0800-292150
++Belgium - Dutch
++0800-74174
++Belgium - French
++0800-74175
++France
++0800-909153
++Germany
++0800-1810696
++Ireland
++1-800-552131
++Israel
++1-80-9453797
++Italy
++800-790521
++Netherlands
++0800-0235323
++Portugal
++800-831429
++South Africa
++0800-995044
++Spain
++900-993190
++Sweden
++020-798690
++Switzerland
++0800-837550
++Turkey
++00800448822063
++United Kingdom
++0800-7319905
++If your country is not listed above, use the following toll number: +
++44-14-4228-0190
++Last updated 2026-07-08
++Preferred language dialog selection
++Language
++Your preferred language
++{preferredLanguage}
++Other available languages
++Select your Language
++العربية
++Arabic
++English - United Kingdom
++English - United Kingdom
++English - United States
++English - United States
++Français canadien
++French Canadian
++한국어
++Korean
++日本語
++Japanese
++简体中文
++Simplified Chinese
++Cancel
++Apply
++Close Preferred language dialog selection dialog
++Search overlay modal
++What can we help you find?
++Featured searches
++Find an exam program
++Log in to my account
++Create an account
++Reschedule my exam
++Purchase vouchers
++Customer service
++Close Search overlay modal dialog
++Unleash opportunity with in-demand skilling and certification
++For test-takers
++Resources and FAQs
++Find a test center
++Online testing
++Test accommodations
++Customer service
++U.S. military
++For test owners
++For test centers
++For training centers
++Explore skilling solutions
++About us
++US-English
++Privacy and cookies policy
++Terms of service
++SMS terms and conditions
++Do not sell my personal information and cookies
++Accessibility statement
++Responsible AI statement
++Health Data Policy
++Sustainability
++Carbon reduction plan
++Modern Slavery Act
++© 1996 – {year} Pearson. All rights reserved, including those for text and data mining and training of artificial intelligence and similar technologies.
++This website uses
++cookies
++.
+
+```
