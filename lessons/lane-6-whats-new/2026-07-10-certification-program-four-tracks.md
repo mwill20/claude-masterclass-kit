@@ -1,4 +1,4 @@
-# Pending Review - Claude Certification Program: Four Tracks
+﻿# Claude Certification Program: Four Tracks
 
 - Source file: `incoming/processed/2026-07-10-certification-program-split.md`
 - Captured: 2026-07-10
@@ -6,7 +6,7 @@
   publishes per-cert domains worth their own stations)
 - Station: Claude certification program four tracks
 - Risk: LOW
-- Status: pending review
+- Status: approved 2026-07-11
 
 ## Why This Maps Here
 
@@ -52,7 +52,3 @@ You're done when:
 
 - Certification program on Pearson VUE: https://www.pearsonvue.com/us/en/anthropic.html
 - Anthropic Academy: https://www.anthropic.com/learn
-
-## Review Question
-
-Add this station to the What's New lane?
