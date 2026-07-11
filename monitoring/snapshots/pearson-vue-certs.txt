@@ -1,4 +1,4 @@
-Claude Certification Program | AI, Machine Learning & LLM Development
+﻿Claude Certification Program | AI, Machine Learning & LLM Development
 Skip to main content
 For test-takers
 For test owners
@@ -41,7 +41,7 @@ Certifications
 Claude Certified Associate - Foundations (CCAO-F)
 Claude Certified Architect - Foundations (CCAR-F)
 Claude Certified Architect - Professional (CCAR-P)
-Claude Certified Developer - Foundations (CCDV-F)
+SIMULATED-DRIFT-TEST - Foundations (CCDV-F)
 Digital Badges
 Anthropic has partnered with Credly to provide digital certification badges.
 Training Resources
@@ -95,7 +95,7 @@ Need assistance? Chat with a live agent now.*
 Chat with us
 *Can't find the chat feature? Enable support features by turning on functional cookies in your preferences:
 Office hours
-Monday–Friday, 7:00 a.m.–7:00 p.m. CT; closed on local holidays.
+Mondayâ€“Friday, 7:00 a.m.â€“7:00 p.m. CT; closed on local holidays.
 Telephone numbers
 888-671-2183
 (toll-free)
@@ -133,7 +133,7 @@ Taiwan
 Other (Toll)
 +852 3077 4923
 Office hours
-9:00–18:00 CET (8:00–17:00 GMT) Monday–Friday; closed on local holidays.
+9:00â€“18:00 CET (8:00â€“17:00 GMT) Mondayâ€“Friday; closed on local holidays.
 Telephone numbers
 Toll-free customer service numbers are available in the following countries. If your country is not listed, please use the toll number at the bottom of this section.
 Country
@@ -179,19 +179,19 @@ Your preferred language
 {preferredLanguage}
 Other available languages
 Select your Language
-العربية
+Ø§Ù„Ø¹Ø±Ø¨ÙŠØ©
 Arabic
 English - United Kingdom
 English - United Kingdom
 English - United States
 English - United States
-Français canadien
+FranÃ§ais canadien
 French Canadian
-한국어
+í•œêµ­ì–´
 Korean
-日本語
+æ—¥æœ¬èªž
 Japanese
-简体中文
+ç®€ä½“ä¸­æ–‡
 Simplified Chinese
 Cancel
 Apply
@@ -230,7 +230,7 @@ Health Data Policy
 Sustainability
 Carbon reduction plan
 Modern Slavery Act
-© 1996 – {year} Pearson. All rights reserved, including those for text and data mining and training of artificial intelligence and similar technologies.
+Â© 1996 â€“ {year} Pearson. All rights reserved, including those for text and data mining and training of artificial intelligence and similar technologies.
 This website uses
 cookies
 .
