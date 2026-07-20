@@ -54,15 +54,16 @@ AI agents
 Code modernization
 Coding
 Customer support
-Education
+Cybersecurity
 Enterprise
 Financial services
 Government
 Healthcare
+Higher education
+K-12 teachers
 Legal
 Life sciences
 Nonprofits
-Security
 Small business
 Claude Platform
 Overview
@@ -116,5 +117,7 @@ Consumer health data privacy policy
 Responsible disclosure policy
 Terms of service: Commercial
 Terms of service: Consumer
+Terms of Service: US K-12
+Data Processing Agreement: US K-12
 Usage policy
 © 2026 Anthropic PBC

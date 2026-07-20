@@ -39,6 +39,12 @@ Search
 Date
 Category
 Title
+Jul 14, 2026
+Product
+Introducing Claude for Teachers
+Jul 14, 2026
+Announcements
+Anthropic commits $10 million to Canadian AI research
 Jul 9, 2026
 Case Study
 UST is bringing Claude to physical AI
@@ -63,12 +69,6 @@ Introducing Claude Sonnet 5
 Jun 30, 2026
 Announcements
 Redeploying Fable 5
-Jun 30, 2026
-Announcements
-Claude Science, an AI workbench for scientists, is now available
-Jun 23, 2026
-Product
-Introducing Claude Tag
 See more
 Products
 Claude
@@ -96,15 +96,16 @@ AI agents
 Code modernization
 Coding
 Customer support
-Education
+Cybersecurity
 Enterprise
 Financial services
 Government
 Healthcare
+Higher education
+K-12 teachers
 Legal
 Life sciences
 Nonprofits
-Security
 Small business
 Claude Platform
 Overview
@@ -158,5 +159,7 @@ Consumer health data privacy policy
 Responsible disclosure policy
 Terms of service: Commercial
 Terms of service: Consumer
+Terms of Service: US K-12
+Data Processing Agreement: US K-12
 Usage policy
 © 2026 Anthropic PBC
