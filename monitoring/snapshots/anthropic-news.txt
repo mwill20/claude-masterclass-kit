@@ -39,6 +39,9 @@ Search
 Date
 Category
 Title
+Aug 14, 2026
+Announcements
+How Claude’s text watermark works
 Aug 7, 2026
 Product
 Improving Fable 5's biology safeguards
@@ -65,9 +68,6 @@ Ask Claude about the Anthropic Economic Index
 Jul 21, 2026
 Announcements
 Anthropic is donating another $20 million to Public First Action
-Jul 20, 2026
-Announcements
-Apply for Anthropic’s AI for Science rare disease research grants
 See more
 Products
 Claude
@@ -78,7 +78,7 @@ Claude Cowork
 Claude Design
 Claude Science
 Claude Security
-Claude for Chrome
+Claude in Chrome
 Claude for Microsoft 365
 Skills
 Download app
