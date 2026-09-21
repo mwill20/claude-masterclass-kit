@@ -59,6 +59,8 @@ AI Fluency educational materials for pK-12 educators
 2 Courses
 AI Fluency for Creative Work
 This course empowers creative professionals to develop AI fluency, making intentional, analysis-driven decisions about AI use in their creative practice while protecting what makes their work theirs.
+Deploying Claude Enterprise with Confidence: The five decisions that shape your rollout
+Make the five decisions that shape how Claude works for your organization — Structure & Identity, Access, Governance, Spend, Visibility — and record them in the rollout plan you keep.
 Part of:
 Data and Privacy
 What is Skilljar and why am I logging into it?
