@@ -27,7 +27,7 @@ For work that belongs to the team. Tag Claude in Slack, delegate in the open, an
 Claude Platform
 Build Claude into your products. Go from first call to production with the API, Claude Console, and MCP.
 Develop AI Fluency
-More about AI Fluency
+More about how AI works
 
 Mindsets and mental models that hold up as models and features change
 AI Fluency: Framework and foundations
