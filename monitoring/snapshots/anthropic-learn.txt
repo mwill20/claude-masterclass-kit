@@ -7,6 +7,7 @@ Resources
 
 Search
 Loading
+
 Explore
 
 Resources
@@ -17,6 +18,8 @@ Welcome to Claude Academy
 Learn to use AI safely, effectively, and with intention. Free courses, tutorials, and use cases from Anthropic’s education team.
 Get started
 Browse all resources
+What do you want to learn?
+Free courses on Claude and AI, from Anthropic.
 Dive into a product
 Claude
 Your thinking partner for big ambitions: work through a problem, pressure-test a draft, or make sense of a dataset in conversation.
