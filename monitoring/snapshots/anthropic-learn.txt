@@ -65,4 +65,7 @@ Anthropic PBC
 Privacy choices
 Privacy policy
 Usage policy
+
+Language
+English
 
