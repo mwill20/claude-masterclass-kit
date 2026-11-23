@@ -2,22 +2,10 @@ Claude Academy · Learn to work and build with Claude
 Claude Academy
 Explore
 
-Resources
-
+Webinars
 
-Search
 Loading
 
-Explore
-
-Resources
-
-Browse
-
-Welcome to Claude Academy
-Learn to use AI safely, effectively, and with intention. Free courses, tutorials, and use cases from Anthropic’s education team.
-Get started
-Browse all resources
 What do you want to learn?
 Free courses on Claude and AI, from Anthropic.
 Dive into a product
@@ -59,12 +47,47 @@ Course
 5 lessons · 1 quiz
 ·
 45 min
+Learn about AI
+AI Fluency
+How AI works
+Collaborating with AI
+Building human-agent teams
+Build with Claude
+By audience
+Claude for work
+Claude for personal use
+Claude for higher education
+Claude for K-12
+Claude for nonprofits
+Claude for small business
+By type
+All resources
+Courses
+Tutorials
+Use cases
+Webinars
+By product
+Claude
+Claude Cowork
+Claude Code
+Claude Tag
+Claude Platform
+Help and docs
+FAQ
+Help Center
+(opens in new tab)
+Developer docs
+(opens in new tab)
+Developer blog
+(opens in new tab)
 ©
 2026
 Anthropic PBC
 Privacy choices
 Privacy policy
+(opens in new tab)
 Usage policy
+(opens in new tab)
 
 Language
 English
